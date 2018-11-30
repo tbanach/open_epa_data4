@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns="http://semoss.org/ontologies/Relation/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+<rdfs:Class rdf:about="http://semoss.org/ontologies/Concept"/>
+<rdf:Property rdf:about="http://semoss.org/ontologies/Relation"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FY15CLEAN_UNIQUE_ROW_ID/FY15CLEAN">
+	<rdfs:subClassOf rdf:resource="http://semoss.org/ontologies/Concept"/>
+	<rdfs:Class rdf:resource="TYPE:LONG"/>
+	<Conceptual rdf:resource="http://semoss.org/ontologies/Concept/FY15CLEAN"/>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/contract_id/FY15CLEAN"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FY15CLEAN_UNIQUE_ROW_ID/FY15CLEAN">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/contract_id/FY15CLEAN">
+			<rdfs:Class rdf:resource="TYPE:DOUBLE"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/contract_id/FY15CLEAN"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/obligated/FY15CLEAN"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FY15CLEAN_UNIQUE_ROW_ID/FY15CLEAN">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/obligated/FY15CLEAN">
+			<rdfs:Class rdf:resource="TYPE:DOUBLE"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/obligated/FY15CLEAN"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/state_1/FY15CLEAN"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FY15CLEAN_UNIQUE_ROW_ID/FY15CLEAN">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/state_1/FY15CLEAN">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/state_1/FY15CLEAN"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/type_of_work/FY15CLEAN"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FY15CLEAN_UNIQUE_ROW_ID/FY15CLEAN">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/type_of_work/FY15CLEAN">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/type_of_work/FY15CLEAN"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/vendor/FY15CLEAN"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FY15CLEAN_UNIQUE_ROW_ID/FY15CLEAN">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/vendor/FY15CLEAN">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/vendor/FY15CLEAN"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/zip/FY15CLEAN"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FY15CLEAN_UNIQUE_ROW_ID/FY15CLEAN">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/zip/FY15CLEAN">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/zip/FY15CLEAN"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/TimeStamp">
+	<TIME xmlns="ENGINE:">2018:11:30 15:33:04</TIME>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FY15CLEAN/FY15CLEAN">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">784</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/contract_id/FY15CLEAN">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">784</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/obligated/FY15CLEAN">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">422</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/state_1/FY15CLEAN">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">36</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/type_of_work/FY15CLEAN">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">11</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/vendor/FY15CLEAN">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">62</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/zip/FY15CLEAN">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">180</UNIQUE>
+</rdf:Description>
+
+</rdf:RDF>
